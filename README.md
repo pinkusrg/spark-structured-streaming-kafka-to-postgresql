@@ -8,7 +8,7 @@ A basic template of integrating spark strucutured streaming with kafka and postg
   
 ## Getting Started  
 #### Minimum requirements  
-To run this example you will need  **Java 1.8+, Scala 2.11.12, SBT 1.2.8, spark 2.4.3**.   
+To run this example you will need  **Java 1.8+, Scala 2.11.12, SBT 1.2.8, spark 2.4.0**.   
 
 ## Running 
 
@@ -37,4 +37,5 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic bands
 >>{"id":0,"name":"Led Zeppelin","hometown":"London","year":1968}
 ```
 Now, after running your application you should be able to see the data in your table accordingly, in our case it was the bands table:
+<br>
 ![Output result](https://springflee.files.wordpress.com/2020/03/bands_sample.png?w=810)
